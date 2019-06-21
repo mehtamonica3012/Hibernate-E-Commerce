@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 17, 2019 3:30:40 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="POJO.SubCategoryMaster" table="sub_category_master" catalog="mitesh_electronics" optimistic-lock="version">
+        <id name="subCategoryId" type="java.lang.Integer">
+            <column name="sub_category_id" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="categoryMaster" class="POJO.CategoryMaster" fetch="select">
+            <column name="category_id" />
+        </many-to-one>
+        <property name="subCategoryName" type="string">
+            <column name="sub_category_name" length="55" not-null="true" />
+        </property>
+        <set name="productMasters" table="product_master" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="sub_category_id" not-null="true" />
+            </key>
+            <one-to-many class="POJO.ProductMaster" />
+        </set>
+    </class>
+</hibernate-mapping>
