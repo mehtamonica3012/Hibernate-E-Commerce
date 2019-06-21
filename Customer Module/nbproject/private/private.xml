@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>src/java/AddToCart.java</url>
+            <bookmark id="1">
+                <name/>
+                <line>101</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/E:/ProjectMini/MiteshElectronicsHibernate/src/java/hibernate.reveng.xml</file>
+            <file>file:/E:/ProjectMini/MiteshElectronicsHibernate/web/electronics06.jsp</file>
+            <file>file:/E:/ProjectMini/MiteshElectronicsHibernate/src/java/Order.java</file>
+            <file>file:/E:/ProjectMini/MiteshElectronicsHibernate/src/java/AddToCart.java</file>
+            <file>file:/E:/ProjectMini/MiteshElectronicsHibernate/src/java/FinalPayment.java</file>
+            <file>file:/E:/ProjectMini/MiteshElectronicsHibernate/src/java/POJO/OrderMaster.java</file>
+            <file>file:/E:/ProjectMini/MiteshElectronicsHibernate/web/ViewOrders.jsp</file>
+            <file>file:/E:/ProjectMini/MiteshElectronicsHibernate/web/Cart.jsp</file>
+            <file>file:/E:/ProjectMini/MiteshElectronicsHibernate/web/payment.jsp</file>
+        </group>
+    </open-files>
+</project-private>
